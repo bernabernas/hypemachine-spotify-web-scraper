@@ -51,9 +51,9 @@ print(uri_list)
 
 #Spotify Client Credentials Flow
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id='a4da6467f4454db59104caff0d0754ca',
-    client_secret='6d2c28fce2164884acbd0f41d00ffb2e',
-    redirect_uri='http://127.0.0.1:5050',
+    client_id='YOUR CLIENT ID',
+    client_secret='YOUR CLIENT SECRET',
+    redirect_uri='YOUR REDIRECT URI 127.0.0.....',
     scope= "playlist-modify-private playlist-modify-public"
 ))
 
